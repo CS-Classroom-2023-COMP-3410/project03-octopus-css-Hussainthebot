@@ -1,0 +1,153 @@
+/* global */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    color: #000;
+}
+
+/*  header*/
+
+#header {
+    background-color: #0b6edc;
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+}
+
+#header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#header p {
+    margin-top: 8px;
+    font-style: italic;
+}
+
+/* main content */
+
+
+#main-content {
+    background-color: white;
+    padding: 20px 40px;
+}
+
+/* heading styles to match screenshot */
+h2 {
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+h4 {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+h5,
+h6 {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+/* paragraph spacing and readability */
+p {
+    line-height: 1.6;
+}
+
+/* highlights important anatomy term in red */
+.important {
+    color: red;
+    font-weight: bold;
+}
+
+/* list indentation for readability */
+ul,
+ol {
+    margin-left: 25px;
+}
+
+/*  quiz section */
+
+
+#quiz-section {
+    background-color: #e9f7ff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 30px;
+    position: relative;
+}
+
+#quiz-section h2 {
+    margin-top: 0;
+}
+
+/* positions quiz image on the right with colored border */
+#quiz-section img {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 120px;
+    border: 3px solid purple;
+}
+
+/* aligns form labels and inputs neatly */
+form label {
+    display: inline-block;
+    width: 320px;
+    margin-top: 10px;
+}
+
+form input[type="text"] {
+    padding: 4px;
+    width: 200px;
+}
+
+form input[type="submit"] {
+    margin-top: 15px;
+    padding: 6px 12px;
+}
+
+/*  table section*/
+
+#species-table {
+    padding: 20px 40px;
+    background-color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 500px;
+}
+
+/* table header styling */
+th {
+    background-color: #999;
+    color: white;
+    padding: 8px;
+    border: 1px solid #555;
+}
+
+/* table cell styling */
+td {
+    padding: 8px;
+    border: 1px solid #555;
+}
+
+/* footer */
+
+#footer {
+    background-color: #d3d3d3;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
